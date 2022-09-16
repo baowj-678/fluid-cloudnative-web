@@ -22,7 +22,7 @@ To resolve the issue that Kubernetes lacks the awareness and optimization for ap
 
 The architecture of Fluid in Kubernetes is as following:
 <div align="center">
-  <img src="http://kubeflow.oss-cn-beijing.aliyuncs.com/Static/architecture.png" title="architecture" width="60%" height="60%" alt="">
+  <img src="/architecture.png" title="architecture" height="80%" width="80%" alt="">
 </div>
 
 ## Concept
