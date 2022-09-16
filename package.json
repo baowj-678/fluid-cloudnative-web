@@ -1,0 +1,25 @@
+{
+  "name": "fluid-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "~1.8.2"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.3.0",
+    "@vuepress/shared-utils": "^1.9.7",
+    "async-validator": "^1.11.5",
+    "core-js": "^3.15.2",
+    "element-ui": "^2.15.3",
+    "lru-cache": "^7.14.0",
+    "markdown-it-emoji": "^2.0.2"
+  }
+}
