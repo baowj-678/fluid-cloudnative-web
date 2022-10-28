@@ -93,7 +93,7 @@ module.exports = {
             },
           ],
           sidebar: {
-            '/zh/guide/': ['', 'get_started','install','troubleshooting','faq'],
+            '/zh/guide/': [''],
             '/zh/samples/': ['','accelerate_pvc','machinelearning','data_warmup','accelerate_hdfs',
                   'api_proxy','backup_and_restore_metadata',
                   'data_co_locality','data_toleration','dataset_scaling',

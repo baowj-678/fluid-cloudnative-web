@@ -8,6 +8,9 @@
 npm install .
 npm run docs:dev
 ```
+如果出现"error:0308010C:digital envelope routines::unsupported"问题，需要设置
+Liunx: `export NODE_OPTIONS=--openssl-legacy-provider`
+Windows: `set NODE_OPTIONS=--openssl-legacy-provider`
 
 ## 打包和上传
 
