@@ -33,8 +33,9 @@ module.exports = {
               text: 'Docs',
               items: [
                   {text: 'Guide',link: '/doc/guide/'},
+                  {text: 'Samples',link: '/doc/samples/'},
                   {text: 'Dev',link: '/doc/dev/'},
-                  {text: 'Samples',link: '/doc/samples/'}
+                  {text: 'Operation',link: '/doc/operation/'},
                 ],
             },
             {
@@ -58,7 +59,7 @@ module.exports = {
             // '/samples/': ['','accelerate_pvc','machinelearning','data_warmup','accelerate_hdfs','accelerate_s3_minio','data_co_locality',
             // 'multi_dataset_same_node_accessing','nonroot_access','tieredstore_config','use_encryptoptions'],
             // '/dev/':['','api_doc','dev_with_kind','/dev/profiling','multiple-client-support'],
-            '/doc/': ['guide', 'dev', 'samples'],
+            '/doc/': ['guide', 'samples', 'dev', 'operation'],
             '/blog/casestudy/':[''],
             '/blog/releases/':['','fluid04','fluid03'],
             '/blog/technology/':['','fluid_cncf','fluid_logistics','scaling']
@@ -72,8 +73,9 @@ module.exports = {
               text: '文档',
               items: [
                   {text: '指南',link: '/zh/doc/guide'},
+                  {text: '示例',link: '/zh/doc/samples'},
                   {text: '开发',link: '/zh/doc/dev'},
-                  {text: '示例',link: '/zh/doc/samples'}
+                  {text: '运维',link: '/zh/doc/operation'}
                 ],
             },
             { 
@@ -93,7 +95,7 @@ module.exports = {
             },
           ],
           sidebar: {
-            '/zh/doc/': ['guide', 'dev', 'samples'],
+            '/zh/doc/': ['guide', 'samples', 'dev', 'operation'],
             // '/zh/guide/': [''],
             // '/zh/samples/': ['','accelerate_pvc','machinelearning','data_warmup','accelerate_hdfs',
             //       'api_proxy','backup_and_restore_metadata',
