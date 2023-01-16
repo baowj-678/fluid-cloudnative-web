@@ -39,20 +39,25 @@ module.exports = {
                 ],
             },
             {
-              text: 'Community',
-              items:[
-                {text: 'Community', link: '/community/community.md'},
-                {text: 'Adopters', link: '/community/ADOPTERS.md'}
-              ],
-            },
-            {
-              text: 'Blog',
+              text: 'Technical Blog',
               items: [
                 {text:'Technology', link:'/blog/technology/'},
                 {text:'Releases', link:'/blog/releases/'},
                 {text:'Case Study',link: '/blog/casestudy/'},
               ]
             },
+            {
+              text: 'Community',
+              items:[
+                {text: 'Community', link: '/community/community.md'},
+                {text: 'Adopters', link: '/community/ADOPTERS.md'},
+                {text: 'Committee', link: '/community/committee.md'}
+              ],
+            }
+            // {
+            //   text: 'About us',
+            //   link: '/aboutus/'
+            // }
           ],
           sidebar: {
             // '/guide/': ['','get_started','install','troubleshooting','faq',],
@@ -78,21 +83,26 @@ module.exports = {
                   {text: '运维',link: '/zh/doc/operation'}
                 ],
             },
-            { 
-              text: '社区',
-              items:[
-                {text: '社区', link: '/zh/community/community.md'},
-                {text: '用户', link: '/zh/community/ADOPTERS.md'}
-              ],
-            },
             {
-              text: '博客',
+              text: '技术博客',
               items: [
                 {text:'技术内幕', link:'/zh/blog/technology/'},
                 {text:'版本发布', link:'/zh/blog/releases/'},
                 {text:'案例学习',link: '/zh/blog/casestudy/'},
               ]
             },
+            { 
+              text: '社区',
+              items:[
+                {text: '社区', link: '/zh/community/community.md'},
+                {text: '用户', link: '/zh/community/ADOPTERS.md'},
+                {text: '委员会', link: '/zh/community/committee.md'}
+              ],
+            }
+            // {
+            //   text: '关于我们',
+            //   link: '/zh/aboutus/'
+            // }
           ],
           sidebar: {
             '/zh/doc/': ['guide', 'samples', 'dev', 'operation'],
