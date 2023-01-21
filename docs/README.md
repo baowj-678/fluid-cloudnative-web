@@ -30,8 +30,9 @@ footer: Copyright © 2021 The Fluid Authors. All rights reserved. The Linux Foun
 <div align="center">
   Fluid is a Cloud Native Computing Foundation Sandbox Project.<p></p>
   <a href="https://www.cncf.io/">
-    <img src="https://fluid-imgs.oss-cn-shanghai.aliyuncs.com/public/imgs/CNCF.png" width = "50%" height = "50%"  align=center>
+    <img src="https://fluid-imgs.oss-cn-shanghai.aliyuncs.com/public/imgs/CNCF.png" width = "40%" height = "40%"  align=center>
   </a>
 </div>
+
 
 

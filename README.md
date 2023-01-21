@@ -12,6 +12,10 @@ npm run docs:dev
 Liunx: `export NODE_OPTIONS=--openssl-legacy-provider`
 Windows: `set NODE_OPTIONS=--openssl-legacy-provider`
 
+npm版本：`8.5.3`
+
+nodejs版本：`16.14.0`
+
 ## 打包和上传
 
 ```shell
