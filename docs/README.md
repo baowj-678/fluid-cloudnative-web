@@ -3,7 +3,7 @@ home: true
 heroText: Fluid
 heroImage: /fluid-stacked-color.svg
 actionText: Get Started
-actionLink: /guide/get_started
+actionLink: https://github.com/fluid-cloudnative/fluid/blob/master/docs/en/userguide/get_started.md
 downloadText: Download
 featureSection: Features
 features:
