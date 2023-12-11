@@ -127,6 +127,18 @@
 
             <el-col class="adCol" :span="4">
                  <el-card :body-style="{ padding: '0px 20px'}"><center>
+                    <a href="https://www.zte.com.cn/" target="_blank">
+                        <el-image class="adImg"
+                        style="height: 70px"
+                        src = "/imgs/zte.png"
+                        fit = "scale-down"
+                        ></el-image>
+                    </a></center>
+                </el-card>
+            </el-col>
+
+            <el-col class="adCol" :span="4">
+                 <el-card :body-style="{ padding: '0px 20px'}"><center>
                     <a href="https://www.zhipin.com/" target="_blank">
                         <el-image class="adImg"
                         style="height: 70px"
@@ -136,7 +148,10 @@
                     </a></center>
                 </el-card>
             </el-col>
-
+        </el-row>
+        <div style="height: 10px"></div>
+        <!-- row3 -->
+        <el-row :gutter="10">
             <el-col class="adCol" :span="4">
                 <el-card :body-style="{ padding: '0px 13px'}"><center>
                     <a href="http://www.4paradigm.com/" target="_blank"> 
@@ -148,10 +163,7 @@
                     </a></center>
                 </el-card>
             </el-col>
-        </el-row>
-        <div style="height: 10px"></div>
-        <!-- row3 -->
-        <el-row :gutter="10">
+
             <el-col class="adCol" :span="4">
                  <el-card :body-style="{ padding: '0px 20px'}"><center>
                     <a href="https://www.unisound.com/" target="_blank">
@@ -187,18 +199,6 @@
                     </a></center>
                 </el-card>
             </el-col>
-
-            <el-col class="adCol" :span="4">
-                 <el-card :body-style="{ padding: '0px 10px'}"><center>
-                     <a href="https://www.inceptio.ai/" target="_blank"> 
-                         <el-image class="adImg"
-                         style=" height: 70px"
-                         src = "/imgs/inceptio.svg"
-                         fit = "scale-down"
-                         ></el-image>
-                     </a></center>
-                 </el-card>
-             </el-col>
 
              <el-col class="adCol" :span="4">
                 <el-card :body-style="{ padding: '0px 51px'}"><center>
