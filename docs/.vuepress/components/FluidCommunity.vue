@@ -1,7 +1,7 @@
 <template>
 	<div class="community">
 		<el-row :gutter="20">
-			<el-col :span=6>
+			<!-- <el-col :span=6>
 				<el-card class="box-card">
 				<div slot="header" class="clearfix">
 				<center><el-image class="iconImg"
@@ -18,7 +18,7 @@
                         fit = "scale-down"
                         ></el-image></center>
 				</el-card>
-			</el-col>
+			</el-col> -->
 
             <el-col :span=6>
 				<el-card class="box-card">
@@ -52,7 +52,7 @@
 				</div>
                 <center><el-image class="codeImg"
                         style="height: 100px"
-                        src = "https://fluid-imgs.oss-cn-shanghai.aliyuncs.com/public/imgs/dingding_code.png"
+                        src = "/imgs/dingding_code.png"
                         fit = "scale-down"
                         ></el-image></center>
 				</el-card>
